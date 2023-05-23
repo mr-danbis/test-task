@@ -2,7 +2,9 @@ html,
 body {
   overflow-x: hidden;
   height: 100%;
-  color: #051B1F;
+  color: #111111;
+  background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
 }
 
 .box {
@@ -18,13 +20,9 @@ body {
 
 .main {
   flex: 1 0 auto;
+  margin: 80px 200px;
 }
 
 .footer {
   flex: 0 0 auto;
-}
-
-.container {
-  width: 80%;
-  margin: 0 auto;
 }
